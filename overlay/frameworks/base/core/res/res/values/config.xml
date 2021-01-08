@@ -152,7 +152,7 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">65</integer>
-
+    
     <!-- True if the home button has the ability to wake up phone from lockscreen-->
     <bool name="config_HomeWakeButton">true</bool>
 
@@ -393,4 +393,12 @@
          vendor fingerprint HAL implementations. -->
     <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
 
+    <!-- Use home button as wake button-->
+    <bool name="config_enableHomeButtonWake">true</bool>
+
+    <!-- do not use H265 encoder for screen recordings -->
+    <bool name="config_useNewScreenRecEncoder">false</bool>
+
+    <!-- Button backlight -->
+    <bool name="config_button_brightness_support">true</bool>
 </resources>
