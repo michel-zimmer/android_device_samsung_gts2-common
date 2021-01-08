@@ -189,7 +189,7 @@ PRODUCT_PACKAGES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     device/samsung/gts2-common/overlay \
-    device/samsung/gts2-common/overlay-lineage
+    device/samsung/gts2-common/overlay-rr
 
 # Permissions
 PRODUCT_COPY_FILES += \
