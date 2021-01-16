@@ -393,4 +393,7 @@
          vendor fingerprint HAL implementations. -->
     <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
 
+    <!-- Button backlight -->
+    <bool name="config_button_brightness_support">true</bool>
+    
 </resources>

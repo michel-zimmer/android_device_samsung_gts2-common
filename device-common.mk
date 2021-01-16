@@ -47,6 +47,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.bt.bdaddr_path="/efs/bluetooth/bt_addr"
 
+#Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1440
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl-legacy \
@@ -188,8 +191,7 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
-    device/samsung/gts2-common/overlay \
-    device/samsung/gts2-common/overlay-lineage
+    device/samsung/gts2-common/overlay
 
 # Permissions
 PRODUCT_COPY_FILES += \
